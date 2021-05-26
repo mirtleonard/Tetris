@@ -1,0 +1,13 @@
+.cell {
+  padding : 20px 20px 20px 20px;
+  background-color: Teal;
+  border : 1px solid black;
+}
+
+body {
+  font-family: "Lucida Console", "Courier New", monospace ;
+}
+
+#board {
+  margin-top : 5vh;
+}

@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Tetris</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+
+    <div class="modal" id="lose">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">You lose!</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            Try again, Press reset!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="menu d-flex justify-content-center">
+        <div">
+        <h2 id="score"> </h2>
+        <button class="btn btn-success"  onclick = "startGame()"> Reset </button>
+      </div>
+    </div>
+    <div id="board">
+      <div class="d-flex justify-content-center">
+        <div>
+          <h1>Tetris</h1>
+          <button class="btn btn-primary" onclick="startGame()"> Start Game</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
