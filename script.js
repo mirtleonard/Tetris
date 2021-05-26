@@ -50,7 +50,7 @@ function startGame() {
   generateShape();
   if (set == 0) {
     set = 1;
-    setInterval(nextState, 500);
+    setInterval(nextState, 200);
   }
 }
 
