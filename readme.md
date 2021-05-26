@@ -6,5 +6,4 @@ With up arrow you rotate the shape.
 
 With down arrow you move it faster.
 
-![Game] (game.jpg)
-Format: ![Alt Text](url)
+![Alt Text](game.jpg)
